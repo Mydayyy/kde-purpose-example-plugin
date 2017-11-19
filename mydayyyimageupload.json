@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Daniel Lanz",
+                "Name[x-test]": "xxDaniel Lanzxx"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Upload pictures to Mydayyys server",
+        "Icon": "edit-paste",
+        "License": "MIT",
+        "Name": "Mydayyy",
+        "Name[x-test]": "xxMydayyyxx"
+    },
+    "X-Purpose-Configuration": [],
+    "X-Purpose-Constraints": [
+        "mimeType:image/*"
+    ],
+    "X-Purpose-PluginTypes": [
+        "Export"
+    ]
+}
