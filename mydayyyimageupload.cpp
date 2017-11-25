@@ -116,6 +116,9 @@ public slots:
             reply->deleteLater();
 
             if(reply->error() != QNetworkReply::NoError) {
+                if(reply->error() == QNetworkReply::ContentAccessDenied || reply->error() == QNetworkReply::RemoteHostClosedError) {
+                    return emitNotConnectedError();
+                }
                 return emitGenericError();
             }
 
