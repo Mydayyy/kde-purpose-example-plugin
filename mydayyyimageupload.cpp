@@ -18,7 +18,7 @@
 #include <QJsonArray>
 #include <KPluginFactory>
 
-const char* ENDPOINT_URL = "https://api.mydayyy.eu/imageupload";
+const char* ENDPOINT_URL = "YOUR_ENDPOINT_HERE";
 
 class MydayyyShareJob : public Purpose::Job
 {
